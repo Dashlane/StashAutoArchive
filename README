@@ -1,13 +1,6 @@
-You have successfully created an Atlassian Plugin!
+Stash Auto Archive
+====
 
-Here are the SDK commands you'll use immediately:
+This is an Atlassian Stash hook plugin that will automatically tag branches with a tag "archive/<branch name>" before deletion.
 
-* atlas-run   -- installs this plugin into the product and starts it on localhost
-* atlas-debug -- same as atlas-run, but allows a debugger to attach at port 5005
-* atlas-cli   -- after atlas-run or atlas-debug, opens a Maven command line window:
-                 - 'pi' reinstalls the plugin into the running product instance
-* atlas-help  -- prints description for all commands in the SDK
-
-Full documentation is always available at:
-
-https://developer.atlassian.com/display/DOCS/Introduction+to+the+Atlassian+Plugin+SDK
+You will need the Altassian SDK to build it.
